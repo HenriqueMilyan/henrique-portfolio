@@ -1,0 +1,70 @@
+
+/*LOGO*/
+   header{
+    padding: 60px 35%;
+}
+/*FINAL DA LOGO*/
+
+/*AJUSTES DO FORMATO DO SITE*/
+*{  margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+body{
+    background-color:teal;
+    height: 100vh;
+}
+.interface{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/*FINAL DO AJUSTES DO FORMATO DO SITE*/
+
+/*BEM-VINDO*/
+section.topo-do-site{
+    padding: 40px 10%;
+}
+section.topo-do-site .flex{
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}   
+.topo-do-site h1{
+    color: black;
+    font-size: 70px;
+}
+.topo-do-site h1 span{
+    color: rgb(3, 73, 73);
+    display: block;
+}
+.topo-do-site p{
+    margin: 50px 0;
+    color: black;
+}
+/*FINAL DO BEM-VINDO*/
+
+/*SOBRE MIM*/
+section.sobre .flex{
+    align-items: center;
+    gap: 80px;
+}
+section.sobre {
+    padding: 40px 4%;
+}
+.sobre .txt-sobre{
+    color:black
+}
+.sobre .txt-sobre h2 span{
+    display: block;
+    color:rgb(3, 73, 73);
+}
+.sobre .txt-sobre h2{
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+/*FINAL DO SOBRE MIM*/
